@@ -46,14 +46,15 @@ input {
   appearance: none;
 }
 
-/*референс*/
+/*референс
  .img_referens {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   opacity: 0.5;   
   height: auto;
-}
+  position: absolute;
+}*/
 
 .content {
   display: grid; 
@@ -98,8 +99,8 @@ input {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
+  font-weight: 100;
   margin-bottom: 5px;
-  word-spacing: -3px;
 }
 
 .search-form__label {
@@ -241,12 +242,15 @@ div .search-form__label:hover {
 }
 
 .content__video-card-title {
+  width: 200px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 30px;
-  text-overflow: ellipsis; 
-  white-space: nowrap;
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+  margin-bottom: 6px;
+  line-height: 1em;
 }
 
 .content__video-card-description {
@@ -260,6 +264,10 @@ div .search-form__label:hover {
   width: 194px;
   height: 103px;
   object-fit: cover;
+}
+
+.content__card-link_current {
+  background-color: #545050;
 }
 
 /*состояния карточек*/
