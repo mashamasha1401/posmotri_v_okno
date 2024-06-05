@@ -61,8 +61,7 @@ input {
   grid-template-rows: auto;
   width: 1140px;
   margin: auto;
-  column-gap: 30px;
-  row-gap: 30px;
+  gap: 30px 30px;
 }
 
 /*1 секция*/
@@ -86,7 +85,6 @@ input {
 }
 
 .search-form {
-  height: 54px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -202,7 +200,6 @@ div .search-form__label:hover {
   width: min-content;
   font-family: 'Oswald', sans-serif;
   font-size: 75px;
-  
   text-transform: uppercase;
   letter-spacing: 0px;
   line-height: 70px;
@@ -293,7 +290,6 @@ div .search-form__label:hover {
   border: 1px solid #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  /*font-style: bold;*/
   color: #fff;
   font-weight: bold;
   line-height: 0;
@@ -301,9 +297,8 @@ div .search-form__label:hover {
 }
 
 .search-form__submit-button {
-  /*margin-top: 20px;*/
   width: 194px;
-  align-self: flex-end;
+  margin-top: 20px;
 }
 
 .more-button {
