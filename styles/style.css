@@ -42,7 +42,7 @@ ol {
   list-style: none;
 }
 
-/*референс*/
+/*референс*
  .img_referens {
   position: absolute;
   top: 0;
@@ -50,7 +50,7 @@ ol {
   transform: translateX(-50%);
   opacity: 0.5;   
   height: auto;
-}
+}/
 
 .content {
   display: grid; 
@@ -107,7 +107,7 @@ ol {
   cursor: pointer;
 }
 
-/*.visually-hidden {
+.visually-hidden {
   position: absolute;
   inline-size: 1px;
   block-size: 1px;
@@ -115,7 +115,7 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-} */
+} 
 
 input { 
   background-color: transparent;
