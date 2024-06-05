@@ -50,7 +50,7 @@ ol {
   transform: translateX(-50%);
   opacity: 0.5;   
   height: auto;
-}/
+}*/
 
 .content {
   display: grid; 
@@ -108,7 +108,6 @@ ol {
 }
 
 .visually-hidden {
-  position: absolute;
   inline-size: 1px;
   block-size: 1px;
   overflow: hidden;
